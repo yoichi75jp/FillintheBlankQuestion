@@ -93,12 +93,12 @@
         android:layout_margin="5dp"
         android:text="@string/version"/>
 
-    <com.google.android.gms.ads.AdView
+    <!--com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ads:adUnitId="@string/adUnitTestId"
-        ads:adSize="BANNER" />
+        ads:adSize="BANNER" /-->
 
 </LinearLayout>
