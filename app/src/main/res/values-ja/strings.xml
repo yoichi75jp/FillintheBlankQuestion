@@ -13,6 +13,8 @@
 
     <string name="version">Ver.%1$s</string>
 
+    <string name="title_description">はてなマークには何が当てはまるかな？</string>
+
     <string name="blank">"　"</string>
     <string name="instruction1">四字熟語を4つ完成させよう</string>
     <string name="instruction2">次の四字熟語の読み方は何かな？</string>

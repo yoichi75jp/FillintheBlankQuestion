@@ -14,10 +14,12 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:id="@+id/title_description_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="What character should replace the question mark?"/>
+            android:text="@string/title_description"/>
         <TextView
+            android:id="@+id/time_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
@@ -238,16 +240,6 @@
                     android:layout_weight="1"
                     style="android:attr/buttonBarButtonStyle"
                     android:visibility="invisible"/>
-                <!--Button
-                    android:id="@+id/erase"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:drawableTop="@drawable/ic_backspace_black_24dp"
-                    android:background="#00000000"
-                    style="android:attr/buttonBarButtonStyle"
-                    android:text="@string/delete_1char"/-->
                 <Button
                     android:id="@+id/char13"
                     android:layout_width="wrap_content"
@@ -298,12 +290,6 @@
         android:layout_weight="2.5"
         android:gravity="top">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:orientation="vertical"
-            android:layout_gravity="center">
-
             <LinearLayout
                 android:id="@+id/button_layout"
                 android:layout_width="match_parent"
@@ -346,7 +332,6 @@
                     android:text="@string/next_question"/>
             </LinearLayout>
 
-        </LinearLayout>
     </ScrollView>
 
     <com.google.android.gms.ads.AdView
@@ -354,7 +339,7 @@
         android:id="@+id/adView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        ads:adUnitId="@string/adUnitId"
+        ads:adUnitId="@string/adUnitTestId"
         ads:adSize="BANNER" />
 
 </LinearLayout>

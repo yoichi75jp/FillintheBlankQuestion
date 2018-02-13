@@ -11,7 +11,9 @@
     <string name="q_idiom_x_word">Yojijukugo2</string>
 
     <string name="version">Ver.%1$s</string>
-Back
+
+    <string name="title_description">What character should replace the question mark?</string>
+
     <string name="blank">"　"</string>
     <string name="instruction1">Trying to complete 4 idioms</string>
     <string name="instruction2">How do you read?</string>

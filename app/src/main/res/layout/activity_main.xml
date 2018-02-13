@@ -98,7 +98,7 @@
         android:id="@+id/adView0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        ads:adUnitId="@string/adUnitId"
+        ads:adUnitId="@string/adUnitTestId"
         ads:adSize="BANNER" />
 
 </LinearLayout>
