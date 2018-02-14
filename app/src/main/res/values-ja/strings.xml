@@ -15,6 +15,20 @@
 
     <string name="title_description">はてなマークには何が当てはまるかな？</string>
 
+    <string name="count_time">mm:ss.SSS</string>
+
+    <!--穴埋め画面に入ったときのメッセージ-->
+    <string name="start_title">スタート</string>
+    <string name="start_message">これから【%1$s】を開始する。\n%2$d分以内に任務遂行せよ。\n準備は良いか？</string>
+    <string name="start_ok">開始！!</string>
+    <string name="start_cancel">やめる</string>
+
+    <!--穴埋め画面で戻るボタンを押下したときのメッセージ-->
+    <string name="pause_title">ストップ</string>
+    <string name="pause_message">%1$sを終えるのか？それともやはり続けるか？</string>
+    <string name="pause_ok">終える</string>
+    <string name="pause_cancel">続ける</string>
+
     <string name="blank">"　"</string>
     <string name="instruction1">四字熟語を4つ完成させよう</string>
     <string name="instruction2">次の四字熟語の読み方は何かな？</string>

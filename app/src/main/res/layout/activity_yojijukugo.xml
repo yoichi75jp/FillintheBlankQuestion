@@ -19,12 +19,11 @@
             android:layout_height="wrap_content"
             android:text="@string/title_description"/>
         <TextView
-            android:id="@+id/time_text"
+            android:id="@+id/count_time_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text="time"/>
-
+            android:text="@string/count_time"/>
     </LinearLayout>
 
     <LinearLayout

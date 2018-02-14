@@ -14,6 +14,20 @@
 
     <string name="title_description">What character should replace the question mark?</string>
 
+    <string name="count_time">mm:ss.SSS</string>
+
+    <!--穴埋め画面に入ったときのメッセージ-->
+    <string name="start_title">Are You Ready?</string>
+    <string name="start_message">Now start the [%1$s].\nPerform mission within %2$d minute.\nAre you ready?</string>
+    <string name="start_ok">Start!</string>
+    <string name="start_cancel">Cancel</string>
+
+    <!--穴埋め画面で戻るボタンを押下したときのメッセージ-->
+    <string name="pause_title">Pause</string>
+    <string name="pause_message">Do you end the %1$s? Or you want to continue?</string>
+    <string name="pause_ok">End</string>
+    <string name="pause_cancel">Continue</string>
+
     <string name="blank">"　"</string>
     <string name="instruction1">Trying to complete 4 idioms</string>
     <string name="instruction2">How do you read?</string>
