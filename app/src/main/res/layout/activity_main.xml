@@ -28,7 +28,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="1.2"
         android:layout_margin="10dp"
         android:layout_gravity="bottom">
 
@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#000000"
-                android:textColor="#2ca9e1"
+                android:textColor="#BCCD18"
                 android:text="@string/q_idiom"
                 android:textSize="30sp"
                 android:layout_marginBottom="10dp"/>
@@ -55,7 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#000000"
-                android:textColor="#dccb18"
+                android:textColor="#FF4444"
                 android:text="@string/q_en_word"
                 android:textSize="30sp"
                 android:layout_marginBottom="10dp"/>
@@ -65,20 +65,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#000000"
-                android:textColor="#2ca9e1"
+                android:textColor="#2CA9E1"
                 android:text="@string/q_arithmetic"
                 android:textSize="30sp"
                 android:layout_marginBottom="10dp"/>
 
             <Button
-                android:id="@+id/q_idiom_x_word_button"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#000000"
-                android:textColor="#dccb18"
-                android:text="@string/q_idiom_x_word"
-                android:textSize="30sp"
-                android:layout_marginBottom="10dp"/>
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/ic_settings_black_24dp"
+                android:background="#00000000"
+                style="android:attr/buttonBarButtonStyle"
+                android:text="@string/settings"/>
+
 
         </LinearLayout>
 

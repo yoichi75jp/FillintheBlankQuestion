@@ -98,10 +98,10 @@ public class YojijukugoActivity extends Activity implements Runnable{
             m_handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    long endTime = System.currentTimeMillis();
-                    // カウント時間 = 経過時間 - 開始時間
-                    m_diffTime = (endTime - m_startTime);
-                    m_timerText.setText(m_dataFormat.format(m_diffTime));
+                long endTime = System.currentTimeMillis();
+                // カウント時間 = 経過時間 - 開始時間
+                m_diffTime = (endTime - m_startTime);
+                m_timerText.setText(m_dataFormat.format(m_diffTime));
                 }
             });
         }
