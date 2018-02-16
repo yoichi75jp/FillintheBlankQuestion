@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Fill-in-the-Blank Question</string>
 
-    <string name="level">Mode</string>
     <string name="level_normal">Normal</string>
     <string name="level_hard">Hard</string>
 
@@ -26,6 +25,10 @@
     <string name="pause_message">Do you end the %1$s? Or you want to continue?</string>
     <string name="pause_ok">End</string>
     <string name="pause_cancel">Continue</string>
+
+    <!--設定画面で仕様する文字列-->
+    <string name="level">Level</string>
+    <string name="time_limit">Time limit</string>
 
     <string name="blank">"　"</string>
     <string name="instruction1">Trying to complete 4 idioms</string>

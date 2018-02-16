@@ -2,7 +2,6 @@
 <resources>
     <string name="app_name">究極の穴埋めクイズ</string>
 
-    <string name="level">モード</string>
     <string name="level_normal">普通</string>
     <string name="level_hard">難しい</string>
 
@@ -27,6 +26,10 @@
     <string name="pause_message">%1$sを終えるのか？それともやはり続けるか？</string>
     <string name="pause_ok">終える</string>
     <string name="pause_cancel">続ける</string>
+
+    <!--設定画面で仕様する文字列-->
+    <string name="level">レベル</string>
+    <string name="time_limit">制限時間</string>
 
     <string name="blank">"　"</string>
     <string name="instruction1">四字熟語を4つ完成させよう</string>
