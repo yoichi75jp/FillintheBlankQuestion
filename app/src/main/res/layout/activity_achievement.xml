@@ -45,13 +45,16 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/pre_button"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text="<<"/>
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_fast_rewind_black_24dp"
+            android:background="#00000000"
+            style="android:attr/buttonBarButtonStyle"
+            android:text="@string/back_question"/>
         <TextView
             android:id="@+id/now_display"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
@@ -59,10 +62,13 @@
             android:text="2018年2月"/>
         <Button
             android:id="@+id/next_button"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text=">>"/>
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_fast_forward_black_24dp"
+            android:background="#00000000"
+            style="android:attr/buttonBarButtonStyle"
+            android:text="@string/next_question"/>
     </LinearLayout>
 
 </LinearLayout>
